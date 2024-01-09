@@ -19,7 +19,7 @@ button{
 .banner{
     /* width: 1320px;
     height: 600px; */
-    background-image: url('../images/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url('../images/Banner\ Image.png');
    
     background-position: center;
     background-repeat: no-repeat;
@@ -125,7 +125,8 @@ button{
     height: 600px;
 }
 .venue{
-    background-color: bisque;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    
     text-align: center;
     margin-top: 120px;
     padding-top: 100px;
@@ -486,4 +487,10 @@ footer{
     /* padding: 16px 32px; */
     margin-bottom: 120px;
     
+}
+.tag{
+    position: absolute;
+    left:795px;
+    top: 4215px;
+    z-index: 1;
 }
